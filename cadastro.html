@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+ 
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro - CodeSphere</title>
+  <
+
+  <link rel="stylesheet" href="cadastro.css" />
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  
+</head>
+
+<body>
+  
+
+  <main class="main-container">
+    <!-- Container principal da página, que centraliza o conteúdo -->
+
+    <div class="card-cadastro">
+      <!-- Card roxo onde ficam os campos do formulário -->
+
+      <h2 class="logo">CodeSphere</h2>
+      
+      <img src="planeta.png" alt="" class="logo-img" />
+      
+      <form class="formulario">
+        <!-- Início do formulário de cadastro -->
+
+        <label for="email" class="label-input">Email</label>
+        <!-- Texto acima do campo de email -->
+        <input type="email" id="email" placeholder="Digite seu email" required />
+        <!-- Campo onde o usuário digita seu email -->
+
+        <label for="usuario" class="label-input">Nome de usuário</label>
+        <!-- Texto acima do campo de nome -->
+        <input type="text" id="usuario" placeholder="Digite seu nome de usuário" required />
+        <!-- Campo para digitar o nome de usuário -->
+
+        <label for="telefone" class="label-input">Telefone</label>
+        <!-- Texto acima do campo de telefone -->
+        <input type="tel" id="telefone" placeholder="(00) 00000-0000" required />
+        <!-- Campo para digitar o número de telefone -->
+
+        <label for="senha" class="label-input">Senha</label>
+        <!-- Texto acima do campo de senha -->
+        <input type="password" id="senha" placeholder="Digite sua senha" required />
+        <!-- Campo para criar uma senha -->
+
+        <label for="confirmar-senha" class="label-input">Confirme sua senha</label>
+      
+        <input type="password" id="confirmar-senha" placeholder="Confirme sua senha" required />
+        <!-- Campo para confirmar a senha -->
+
+        <div class="termos">
+          <!-- Área que contém o checkbox dos termos de uso -->
+          <input type="checkbox" id="termos" required />
+          <!-- Checkbox obrigatório -->
+          <label for="termos">Aceito os termos de uso</label>
+          <!-- Texto ao lado da caixa de seleção -->
+        </div>
+
+      </form>
+      <!-- Fim do formulário -->
+    </div>
+    <!-- Fim do card -->
+
+    <div class="botoes">
+      <!-- Área dos botões fora do card -->
+
+      <button class="btn registrar">Registrar</button>
+      <!-- Botão de registro, com classe para estilização -->
+
+      <a href="login.html"><button class="btn conta"> já possuo uma conta</button></a>
+      <!-- Botão de cancelar (ainda sem função JS, apenas visual) -->
+
+    </div>
+
+  </main>
+  
+</body>
+</html>
